@@ -1,25 +1,31 @@
 name: gemencloud
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
+    - cron: '22 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gemencloud
         env:
-          o1677: ${{ secrets.o1677 }}
+          sfym81: ${{ secrets.sfym81 }}
         run: |
-          echo $o1677 | jq -r .j26 | /bin/bash
-          echo $anv9787 | jq -r .qehio2577 | /bin/bash
-          echo $kkf5 | jq -r .lenz3339 | /bin/bash
-          echo $mqnn976 | jq -r .f3149 | /bin/bash
-          echo $yjj04 | jq -r .lnxgm9 | /bin/bash
-          echo $kuxml3 | jq -r .r923 | /bin/bash
-          echo $yehpj5 | jq -r .tvpo2872 | /bin/bash
-          echo $oaf12864 | jq -r .jla2373 | /bin/bash
+          echo $sfym81 | jq -r .aa438 | /bin/bash
+          echo $ozx40 | jq -r .umfd32112 | /bin/bash
+          echo $yinrw557 | jq -r .mph5484 | /bin/bash
+          echo $i88 | jq -r .ygvdv0390 | /bin/bash
+          echo $giz6005 | jq -r .rdfvt68210 | /bin/bash
+          echo $ynnh0775 | jq -r .j30403 | /bin/bash
+          echo $kypgg51090 | jq -r .ew7393 | /bin/bash
+          echo $hjh82572 | jq -r .iqlnw13226 | /bin/bash
+          echo $vbqv05421 | jq -r .t59 | /bin/bash
+          echo $jqnth1 | jq -r .mto37234 | /bin/bash
+          echo $irg9342 | jq -r .ay48704 | /bin/bash
+          echo $cxq01335 | jq -r .ofp61926 | /bin/bash
+          echo $dkey41 | jq -r .y7 | /bin/bash
+          echo $pnka8 | jq -r .ri337 | /bin/bash
+          echo $i864 | jq -r .asgyi0822 | /bin/bash
 
